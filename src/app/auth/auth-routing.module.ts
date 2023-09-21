@@ -4,7 +4,7 @@ import { RegisterPageComponent } from './pages/register-page/register-page.compo
 
 const routes: Routes = [
   {
-    path:'auth',
+    path:'',
     children:[
       {path:'sign-up', component:RegisterPageComponent},
       {path:'**', redirectTo:'sign-up'},
